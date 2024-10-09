@@ -1,0 +1,14 @@
+.selectable-row {
+  [role="checkbox"] {
+    transition: opacity 0.3s;
+  }
+  [role="checkbox"][aria-checked="false"] {
+    opacity: 0;
+  }
+
+  &:hover {
+    [role="checkbox"] {
+      opacity: 1;
+    }
+  }
+}

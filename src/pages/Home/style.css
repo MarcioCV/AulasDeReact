@@ -1,0 +1,12 @@
+.homeText {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.homeText h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}

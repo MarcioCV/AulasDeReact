@@ -1,0 +1,65 @@
+.general {
+  display: flex;
+  width: 100%;
+}
+.general nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 240px;
+  padding: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.navItem:hover {
+  background-color: rgba(0, 68, 204, 0.2);
+  color: rgba(0, 68, 204, 1);
+}
+
+.homeContainer {
+  width: 100%;
+}
+
+.general .homeContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.homeContainer header {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url("../../assets/search.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  padding-left: 35px;
+}
+
+header input {
+  border: 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.boxContainer {
+  padding: 0 10%;
+  background-color: #f9fafb;
+  height: 100%;
+}
